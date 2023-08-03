@@ -4,7 +4,7 @@ import pdfkit
 # Настройка путей
 path_xml = r'D:\PZ_V1\XMLtoPDF\PZ_TEST_V1.xml'                              # Файл XML для визуализации
 path_xsl = r'D:\PZ_V1\XMLtoPDF\explanatorynote-01-03.xsl'                   # Файл таблицы стилей
-path_htmltopdf = r'D:\PZ_V1\XMLtoPDF\HTMLtoPDF\bin\wkhtmltopdf.exe'       # Файл генератора PDF из HTML
+path_htmltopdf = r'D:\PZ_V1\XMLtoPDF\HTMLtoPDF\bin\wkhtmltopdf.exe'         # Файл генератора PDF из HTML
 
 # Формирование HTML
 xml_file = et.parse(path_xml)
